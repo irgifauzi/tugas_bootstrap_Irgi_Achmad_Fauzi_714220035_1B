@@ -1,0 +1,17 @@
+.navbar.navbar-expand-lg {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	/*agar nav selalu tampil*/
+	position: sticky;
+	position: -webkit -sticky;
+	top: 0;
+	background: cyan;
+	z-index: 1;
+	border-bottom: 1px;
+}
+
+a.navbar-brand img {
+    width: 150px;
+}
